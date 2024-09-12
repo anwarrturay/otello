@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Pacifico, sans-serif;
+  font-size: 1rem;
+  background-color: #EEF4ED;
+}
+:root{
+  --default-color: #FFFFFF;
+  --text-color: #90E0EF;
+  --black: #000;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.frame{
+  width: 20em;
+  height: 35em;
+  background-color: #0D1B2A;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: .2rem;
+  position: relative;
+  border-radius: 5px;
+}
+.frame h1{
+  color: var(--text-color);
+  text-align: center;
+  font-weight: 500;
+}
+.frame .calc-area{
+  color: var(--black);
+  background-color:   var(--default-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  width: 19em;
+  height: 7em;
+  position: absolute;
+  top: 5rem;
+  border-radius: .3em;
+}
+.frame .calc-area .value{
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-right: .2em;
+}
+.buttons-section{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.row-1,.row-2,.row-3,.row-4,.row-5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.row-1{
+  top: 12.4rem;
+}
+.row-2{
+  top: 16.7rem;
+}
+.row-3{
+  top: 21rem;
+}
+.row-4{
+  top: 25.5rem;
+}
+.row-5{
+  top: 29.5rem;
+}
+
+/* BUTTON LAYOUT */
+button{
+  margin: .5em .3em;
+  width: 4.3em;
+  height: 4em;
+  padding: 0 1.8rem;
+  font: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid var(--text-color);
+  color: var(--default-color);
+  border-radius: 50px;
+  font-weight: 500;
+  cursor: pointer;
+}
+button:hover{
+  background-color: var(--default-color);
+  color: var(--black);
+}
+.row-5{
+  margin: .5rem 0;
+}
+.row-5 .zero{
+  width: 9.2em;
+}
+.display{
+  display: flex;
+}
+.total{
+  margin-right: .7rem;
+}
+.prevCalc{
+  color: var(--text-color);
+  opacity: .7;
+}
