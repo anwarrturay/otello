@@ -1,7 +1,7 @@
 {
   "name": "othello",
   "version": "0.1.0",
-  "homepage": "https://anwarrturay.github.io/othelloCalc",
+  "homepage": "https://anwarrturay.github.io/otello",
   "private": true,
   "dependencies": {
     "easy-peasy": "^6.0.5",
