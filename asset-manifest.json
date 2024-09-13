@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/otello/static/css/main.c3ad8085.css",
+    "main.css": "/otello/static/css/main.dba02436.css",
     "main.js": "/otello/static/js/main.b1154b96.js",
     "index.html": "/otello/index.html",
-    "main.c3ad8085.css.map": "/otello/static/css/main.c3ad8085.css.map",
+    "main.dba02436.css.map": "/otello/static/css/main.dba02436.css.map",
     "main.b1154b96.js.map": "/otello/static/js/main.b1154b96.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3ad8085.css",
+    "static/css/main.dba02436.css",
     "static/js/main.b1154b96.js"
   ]
 }
