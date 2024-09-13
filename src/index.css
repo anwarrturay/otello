@@ -126,7 +126,7 @@ button:hover{
 
 @media (min-width: 375px) and (max-width: 481px) {
   .frame{
-    width: 25em;
+    width: 100%;
     height: 116vh;
   }
   .frame .calc-area{
