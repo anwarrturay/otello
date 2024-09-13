@@ -85,25 +85,41 @@ const OthelloCalc = () => {
       <div className="buttons-section">
 
         <div className="row-1">
-          <button 
-            type='button'
-            onClick={()=> handleClear()}
-          >AC</button>
-          <button 
-            type='button'
-            onClick={()=> handleOperationClick('+/-')}
-          > +/- </button>
-          <button
-            type='button'
-            onClick={()=> handleOperationClick('%')}
-          >%</button>
-          <button 
-            type='button'
-            onClick={()=> handleOperationClick('/')}
-          >/</button>
-        </div>
+            <button 
+              type='button'
+              onClick={()=> handleClear()}
+            >AC</button>
+            <button 
+              type='button'
+              onClick={()=> handleOperationClick('+/-')}
+            > +/- </button>
+            <button
+              type='button'
+              onClick={()=> handleOperationClick('%')}
+            >%</button>
+            <button 
+              type='button'
+              onClick={()=> handleOperationClick('/')}
+            >/</button>
+          </div>
 
         <div className="row-2">
+          <button 
+            type='button'
+          >rand</button>
+          <button 
+            type='button'
+          > sinh</button>
+          <button
+            type='button'
+          >tanh</button>
+          <button 
+            type='button'
+          >cosh</button>
+        </div>
+
+
+        <div className="row-3">
           <button 
             type='button'
             onClick={()=> handleClick('7')}
@@ -122,7 +138,7 @@ const OthelloCalc = () => {
           >*</button>
         </div>
 
-        <div className="row-3">
+        <div className="row-4">
           <button 
             type='button'
             onClick={()=> handleClick('4')}
@@ -141,7 +157,7 @@ const OthelloCalc = () => {
           >-</button>
         </div>
 
-        <div className="row-4">
+        <div className="row-5">
           <button 
             type='button'
             onClick={()=> handleClick('1')}
@@ -160,7 +176,7 @@ const OthelloCalc = () => {
           >+</button>
         </div>
 
-        <div className="row-5">
+        <div className="row-6">
           <button 
             type='button' 
             className='zero'
